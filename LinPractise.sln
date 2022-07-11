@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Git", "Git", "{6B21BBD3-6B9
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinShared", "LinShared\LinShared.vcxitems", "{AB1CEC8D-2BD3-4E0F-8C41-E395833E960E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -55,5 +57,9 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B8BF22E2-E00B-4799-97DA-0790B3DBBFC5}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		LinShared\LinShared.vcxitems*{3396e58a-c414-41ec-b457-1da9e109bf63}*SharedItemsImports = 4
+		LinShared\LinShared.vcxitems*{ab1cec8d-2bd3-4e0f-8c41-e395833e960e}*SharedItemsImports = 9
 	EndGlobalSection
 EndGlobal
